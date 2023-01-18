@@ -8,7 +8,9 @@ import com.tencentcloudapi.common.profile.HttpProfile;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.ses.v20201002.SesClient;
 import com.tencentcloudapi.ses.v20201002.models.*;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmailService {
 
     public static void main(String[] args) {
